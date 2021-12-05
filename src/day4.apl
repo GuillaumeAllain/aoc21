@@ -1,6 +1,3 @@
-)copy loaddata LoadTEXT fileUtilities
-)copy dfns rows
-
 input←⊃⎕NGET'../data/day4' 1
 n←⍎¨','(≠⊆⊢)⊃1⌷input
 t←(↑⍣1){(⍎¨⍤(' '(≠⊆⊢)⊢))¨((~0=(+/' '=⊢)¨⍕¨⍵)/⊢)⍵}1↓input

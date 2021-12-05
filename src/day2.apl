@@ -1,5 +1,5 @@
 )copy loaddata LoadTEXT fileUtilities
-)copy dfns rows dxb time
+)copy dfns dxb rows
 
 input ← {' '(≠⊆⊢)⍵} rows ¯1↓dxb⍕LoadTEXT '../data/day2'
 
