@@ -1,4 +1,3 @@
-)copy dfns time
 input←⍎¨','(≠⊆⊢)⊃⍣2⎕NGET'../data/day7' 1
 
 d←|⊢∘.-((⍳⌈/)⊢)
